@@ -3,7 +3,7 @@
 ## Task 1
 **The general structure of the database**
 <img src="pictures/DB_design.jpg"/>
-###Tables:
+### Tables:
 - **course:** stores the course information. Columns **pre_course_names** and **truth_table** stores the prerequisite course boolean function.
 - **class:** each course contains many classes. In this table, we have **course_id** as a foreign key to express this relation.
 - **class_list:** each class has many class lists, usually two. In this table, we have **class_id** as a foreign key to express this relation. This table also stores the information about the class lists.
